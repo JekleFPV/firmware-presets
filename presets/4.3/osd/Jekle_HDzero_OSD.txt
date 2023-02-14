@@ -1,0 +1,45 @@
+#$ TITLE: Jekle HDzero OSD profiles
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: HDzero, OSD, Jekle, LR, Long range, freestyle, GPS
+#$ AUTHOR: Jekle aka JekleFPV
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: HDzero OSD setup. Profiles for: 1 long range, 2 freestyle with GPS, and 3 for minimum clutter freestyle.
+#$ DESCRIPTION: 
+#$ DESCRIPTION: My 5-letter pilot handle is perfectly entered, if you have more or less letters, you might need to reposition it.
+#$ DESCRIPTION: 
+#$ DESCRIPTION: At this point I'm not planning to do a Pull Request, but if you like it and use it, please shoot me a message and I'll reconsider.
+#$ INCLUDE: presets/4.4/osd/defaults.txt
+
+set osd_warn_bitmask = 25597
+set osd_vbat_pos = 609
+set osd_link_quality_pos = 15982
+set osd_link_tx_power_pos = 7758
+set osd_tim_2_pos = 408
+set osd_flymode_pos = 14968
+set osd_g_force_pos = 14336
+set osd_throttle_pos = 15408
+set osd_vtx_channel_pos = 14944
+set osd_current_pos = 15374
+set osd_mah_drawn_pos = 7176
+set osd_craft_name_pos = 321
+set osd_pilot_name_pos = 14360
+set osd_gps_speed_pos = 6159
+set osd_gps_lon_pos = 1
+set osd_gps_lat_pos = 51838
+set osd_gps_sats_pos = 2673
+set osd_home_dir_pos = 7202
+set osd_home_dist_pos = 7170
+set osd_flight_dist_pos = 2667
+set osd_altitude_pos = 6150
+set osd_warnings_pos = 14549
+set osd_avg_cell_voltage_pos = 14392
+set osd_up_down_reference_pos = 14586
+set osd_flip_arrow_pos = 14618
+set osd_efficiency_pos = 3111
+set osd_stat_bitmask = 6451128
+set osd_gps_sats_show_hdop = ON
+set osd_displayport_device = MSP
