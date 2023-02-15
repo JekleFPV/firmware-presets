@@ -8,9 +8,9 @@
 #$ PARSER: MARKED
 
 #$ DESCRIPTION: HDzero OSD setup. Profiles for: 1 long range, 2 freestyle with GPS, and 3 for minimum clutter freestyle.
-#$ DESCRIPTION: 
-#$ DESCRIPTION: My 5-letter pilot handle is perfectly entered, if you have more or less letters, you might need to reposition it.
-#$ DESCRIPTION: 
+#$ DESCRIPTION:
+#$ DESCRIPTION: My 5-letter pilot handle is perfectly centered, if you have more or less letters, you might need to reposition it.
+#$ DESCRIPTION:
 #$ DESCRIPTION: At this point I'm not planning to do a Pull Request, but if you like it and use it, please shoot me a message and I'll reconsider.
 
 set osd_warn_bitmask = 25597
