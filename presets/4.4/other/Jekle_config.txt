@@ -10,6 +10,10 @@
 #$ DESCRIPTION: That is: max arming angle, pilot handle, and if applicable, my standard GPS settings.
 #$ DESCRIPTION:
 #$ DESCRIPTION: If anyone else is actually using this, please don't use my pilot handle, just enter your own by hand.
+#$ DESCRIPTION: 
+#$ DESCRIPTION: This does not set up GPS rescue, because those settings are linked to your AUX modes.
+#$ DESCRIPTION: If you want GPS rescue AND use my AUX modes, please search for my AUX preset.
+#$ DESCRIPTION: 
 
 # feature
 feature -TELEMETRY
@@ -23,7 +27,7 @@ set small_angle = 180
 #S OPTION END
 
 #$ OPTION_GROUP BEGIN: GPS
-  #$ OPTION BEGIN (UNCHECKED): use GPS on uart 1
+	#$ OPTION BEGIN (UNCHECKED): use GPS on uart 1
     serial 0 2 115200 57600 0 115200
     feature GPS
     set gps_sbas_mode = AUTO

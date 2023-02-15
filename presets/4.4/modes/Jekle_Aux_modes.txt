@@ -1,0 +1,42 @@
+#$ TITLE: Joshua Bardwell rates
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Jekle, AUX modes, GPS rescue
+#$ AUTHOR: Jekle
+#$ DESCRIPTION: 
+#$ DESCRIPTION: 
+#$ DESCRIPTION: 
+
+
+
+
+# aux
+aux 0 0 0 1825 1950 0 0
+aux 1 0 0 1600 1700 0 0
+aux 2 0 0 1400 1500 0 0
+aux 3 1 0 1600 1775 0 0
+aux 4 13 0 1825 1900 0 0
+aux 5 13 0 1925 2000 0 0
+aux 6 13 0 1675 1750 0 0
+aux 7 13 0 1575 1650 0 0
+aux 8 35 0 1400 1575 0 0
+
+# rxfail
+
+
+#$ OPTION BEGIN (UNCHECKED): GPS rescue
+	rxfail 3 s 1275 placeholder
+	rxfail 4 s 1500 placeholder
+	rxfail 5 s 1500 placeholder
+	set failsafe_procedure = GPS-RESCUE
+	set small_angle = 180
+	set gps_sbas_mode = AUTO
+	set gps_auto_baud = ON
+	set gps_ublox_use_galileo = ON
+	set gps_set_home_point_once = ON
+	set gps_rescue_min_start_dist = 25
+	set gps_rescue_return_alt = 20
+	set gps_rescue_pitch_angle_max = 45
+	set gps_rescue_min_sats = 10
+#$ OPTION END
