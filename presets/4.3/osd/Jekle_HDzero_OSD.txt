@@ -12,7 +12,6 @@
 #$ DESCRIPTION: My 5-letter pilot handle is perfectly entered, if you have more or less letters, you might need to reposition it.
 #$ DESCRIPTION: 
 #$ DESCRIPTION: At this point I'm not planning to do a Pull Request, but if you like it and use it, please shoot me a message and I'll reconsider.
-#$ INCLUDE: presets/4.4/osd/defaults.txt
 
 set osd_warn_bitmask = 25597
 set osd_vbat_pos = 609
