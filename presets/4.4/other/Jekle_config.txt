@@ -1,0 +1,79 @@
+#$ TITLE: Jekle Custom config settings and optional GPS
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Pilot name (option), arm angle, GPS settings (option)
+#$ AUTHOR: Jekle aka JekleFPV
+
+#$ DESCRIPTION: This preset contains the stuff usually set up on every quad.
+#$ DESCRIPTION:
+#$ DESCRIPTION: That is: max arming angle, pilot handle, and if applicable, my standard GPS settings.
+#$ DESCRIPTION:
+#$ DESCRIPTION: If anyone else is actually using this, please don't use my pilot handle, just enter your own by hand.
+
+# feature
+feature -TELEMETRY
+feature INFLIGHT_ACC_CAL
+
+# master
+set small_angle = 180
+
+#$ OPTION BEGIN (UNCHECKED): Is your name Jekle?
+  set pilot_name = Jekle
+#S OPTION END
+
+#$ OPTION_GROUP BEGIN: GPS
+  #$ OPTION BEGIN (UNCHECKED): use GPS on uart 1
+    serial 0 2 115200 57600 0 115200
+    feature GPS
+    set gps_sbas_mode = AUTO
+    set gps_auto_baud = ON
+    set gps_ublox_use_galileo = ON
+    set gps_set_home_point_once = ON
+  #$ OPTION END
+
+  #$ OPTION BEGIN (UNCHECKED): use GPS on uart 2
+    serial 1 2 115200 57600 0 115200
+    feature GPS
+    set gps_sbas_mode = AUTO
+    set gps_auto_baud = ON
+    set gps_ublox_use_galileo = ON
+    set gps_set_home_point_once = ON
+  #$ OPTION END
+
+  #$ OPTION BEGIN (UNCHECKED): use GPS on uart 3
+    serial 2 2 115200 57600 0 115200
+    feature GPS
+    set gps_sbas_mode = AUTO
+    set gps_auto_baud = ON
+    set gps_ublox_use_galileo = ON
+    set gps_set_home_point_once = ON
+  #$ OPTION END
+
+  #$ OPTION BEGIN (UNCHECKED): use GPS on uart 4
+    serial 3 2 115200 57600 0 115200
+    feature GPS
+    set gps_sbas_mode = AUTO
+    set gps_auto_baud = ON
+    set gps_ublox_use_galileo = ON
+    set gps_set_home_point_once = ON
+  #$ OPTION END
+
+  #$ OPTION BEGIN (UNCHECKED): use GPS on uart 5
+    serial 4 2 115200 57600 0 115200
+    feature GPS
+    set gps_sbas_mode = AUTO
+    set gps_auto_baud = ON
+    set gps_ublox_use_galileo = ON
+    set gps_set_home_point_once = ON
+  #$ OPTION END
+
+  #$ OPTION BEGIN (UNCHECKED): use GPS on uart 6
+    serial 5 2 115200 57600 0 115200
+    feature GPS
+    set gps_sbas_mode = AUTO
+    set gps_auto_baud = ON
+    set gps_ublox_use_galileo = ON
+    set gps_set_home_point_once = ON
+  #$ OPTION END
+#$ OPTION_GROUP END
