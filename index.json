@@ -341,7 +341,7 @@
       "Llama",
       "log",
       "logging",
-      "Long range",
+      "Long Range",
       "LR",
       "mamba",
       "mck",
@@ -806,27 +806,6 @@
         "switch"
       ],
       "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/Jekle_HDzero_OSD.txt",
-      "hash": "f02a90b4366c46ea321b50d01ac3e7af72f81ca7c980e98931f9f6a20540d796",
-      "title": "Jekle HDzero OSD profiles",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "HDzero",
-        "OSD",
-        "Jekle",
-        "LR",
-        "Long range",
-        "freestyle",
-        "GPS"
-      ],
-      "author": "Jekle aka JekleFPV",
       "priority": 0
     },
     {
@@ -3551,6 +3530,27 @@
       ],
       "author": "sugarK",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.4/osd/Jekle_HDzero_OSD.txt",
+      "hash": "f02a90b4366c46ea321b50d01ac3e7af72f81ca7c980e98931f9f6a20540d796",
+      "title": "Jekle HDzero OSD profiles",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "HDzero",
+        "OSD",
+        "Jekle",
+        "LR",
+        "Long range",
+        "freestyle",
+        "GPS"
+      ],
+      "author": "Jekle aka JekleFPV",
+      "priority": 0
     },
     {
       "fullPath": "presets/4.4/other/Street_League_motor_outputs.txt",
