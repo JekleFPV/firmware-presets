@@ -167,6 +167,7 @@
       "IllusionFpv",
       "Ivan Efimov (Limon)",
       "jappyjan",
+      "Jekle",
       "Jekle aka JekleFPV",
       "Joshua Bardwell",
       "Justice - Gary Kent",
@@ -241,9 +242,11 @@
       "AlexFPV",
       "AOS",
       "AOS T3",
+      "arm angle",
       "Audio TBS",
       "AutoSelect",
       "aux",
+      "AUX modes",
       "Avatar",
       "AyyyKayyy",
       "bando",
@@ -312,6 +315,8 @@
       "GHST",
       "GoPro",
       "GPS",
+      "GPS rescue",
+      "GPS settings (option)",
       "GTB339",
       "gyroflow",
       "HD",
@@ -375,6 +380,7 @@
       "Passthrough",
       "pid",
       "PIDtoolbox",
+      "Pilot name (option)",
       "pro32",
       "profile",
       "Pure Race",
@@ -3532,8 +3538,25 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/modes/Jekle_Aux_modes.txt",
+      "hash": "fbec539815d891c1c6e3d776aa90ef358e8521a2ef5a527208b68c25612aa294",
+      "title": "Jekle AUX modes & GPS rescue",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Jekle",
+        "AUX modes",
+        "GPS rescue"
+      ],
+      "author": "Jekle",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/osd/Jekle_HDzero_OSD.txt",
-      "hash": "d926d10904b8d699a0cccfdea9b3d0a14dc3e44d99e571471238986dfecdb5ee",
+      "hash": "c505ce801015d1f13ee0f2b6c748929fe43e73389168c20344e4fc0c974db168",
       "title": "Jekle HDzero OSD profiles",
       "firmware_version": [
         "4.4"
@@ -3553,26 +3576,20 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/other/Street_League_motor_outputs.txt",
-      "hash": "818ab0552ce3e055e2b3157551b5bc1eb31bd6c1a39ec54fb748f2cb378023e8",
-      "title": "Street League Motor Output Limit Settings",
+      "fullPath": "presets/4.4/other/Jekle_config.txt",
+      "hash": "56c3b87b009ff7ce858771f53942d5f178270dd588f93441710f01e93457ab9b",
+      "title": "Jekle Custom config settings and optional GPS",
       "firmware_version": [
         "4.4"
       ],
       "category": "OTHER",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
-        "Motor",
-        "output limit",
-        "Street League",
-        "StreetLeague",
-        "Street",
-        "League",
-        "LeadFingers",
-        "Throttle cap"
+        "Pilot name (option)",
+        "arm angle",
+        "GPS settings (option)"
       ],
-      "author": "LeadFingers",
-      "force_options_review": true,
+      "author": "Jekle aka JekleFPV",
       "priority": 0
     },
     {
@@ -4420,6 +4437,30 @@
         "race v2",
         "freestyle",
         "tx5m.1",
+        "MSP VTX"
+      ],
+      "author": "sugarK",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.4/vtx/Jekle_HDZero_setup.txt",
+      "hash": "38971786c9992a560bd3543afc607f5be13378f16c5db928147c0c39963b2e42",
+      "title": "Jekle HDZero VTXs",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Jekle",
+        "vtx",
+        "vtx table",
+        "HDzero",
+        "whoop",
+        "whoop lite",
+        "race v1",
+        "race v2",
+        "freestyle",
         "MSP VTX"
       ],
       "author": "sugarK",

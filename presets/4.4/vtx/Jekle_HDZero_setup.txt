@@ -1,0 +1,82 @@
+#$ TITLE: Jekle HDZero VTXs
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: VTX
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:  Jekle, vtx, vtx table, HDzero, whoop, whoop lite, race v1, race v2, freestyle, MSP VTX
+#$ AUTHOR: sugarK
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Pretty much a straight copy of the official one, but with my standard settings (e.g. low power disarm, R1) added and as I don't have a TX5M.1, that option is removed.
+#$ DESCRIPTION: It also defaults to setting up MSP displayport instead of making it optional
+#$ DESCRIPTION: Information about MSP VTX can be found here [MSP VTX](https://github.com/betaflight/betaflight/pull/11705)
+#$ DESCRIPTION: 
+#$ DESCRIPTION: 
+
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/297
+
+#$ INCLUDE: presets/4.3/vtx/defaults_vtx_tables.txt
+#$ INCLUDE_DISCLAIMER: misc/disclaimer/en/vtxtable.txt
+
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 2 BOSCAM_B B FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 3 BOSCAM_E E FACTORY    0    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F FACTORY    0 5760    0 5800    0    0    0    0
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 IMD6     I CUSTOM     0    0    0    0    0    0    0    0
+
+set vtx_band = 5
+set vtx_channel = 1
+set vtx_low_power_disarm = ON
+set vtx_softserial_alt = OFF
+set vtx_freq = 5658
+set vtx_pit_mode_freq = 0
+set vtx_halfduplex = ON
+set vcd_video_system = HD
+set osd_displayport_device = MSP
+
+#$ OPTION BEGIN (UNCHECKED): all VTXs except unlocked Freestyle and TX5M.1
+    vtxtable powerlevels 3
+    vtxtable powervalues 14 23 0
+    vtxtable powerlabels 25 200 0
+	set vtx_power = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): unlocked Freestyle
+    vtxtable powerlevels 5
+    vtxtable powervalues 14 23 27 30 0
+    vtxtable powerlabels 25 200 500 MAX 0
+	set vtx_power = 4
+#$ OPTION END
+
+
+#$ OPTION_GROUP BEGIN: set displayport and MSP VTX on uarts
+
+    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 1 
+        serial 0 131073 115200 57600 0 115200
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 2 
+         serial 1 131073 115200 57600 0 115200
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 3 
+        serial 2 131073 115200 57600 0 115200
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 4
+        serial 3 131073 115200 57600 0 115200
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 5 
+        serial 4 131073 115200 57600 0 115200
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 6 
+        serial 5 131073 115200 57600 0 115200
+    #$ OPTION END
+#$ OPTION_GROUP END
