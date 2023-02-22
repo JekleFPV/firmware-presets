@@ -1,11 +1,11 @@
-#$ TITLE: Jekle AUX modes & GPS rescue
+#$ TITLE: Jekle CRSF AUX modes & GPS rescue
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: Jekle, AUX modes, GPS rescue
+#$ KEYWORDS: Jekle, AUX modes, GPS rescue, Crossfire, CRSF
 #$ AUTHOR: Jekle
 
-#$ DESCRIPTION: This sets up AUX modes as I run them on all my quads. 
+#$ DESCRIPTION: This sets up AUX modes as I run them on all my quads.
 #$ DESCRIPTION: I've also included the option to set up GPS rescue with the settings as I use them. If you decide to use them, you should go back into the settings and check if these are safe for you to use.
 #$ DESCRIPTION: Arming (and if applicable GPS rescue) have their own channel, everything else is combined one on a single channel.
 

@@ -3538,9 +3538,9 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/modes/Jekle_Aux_modes.txt",
-      "hash": "fbec539815d891c1c6e3d776aa90ef358e8521a2ef5a527208b68c25612aa294",
-      "title": "Jekle AUX modes & GPS rescue",
+      "fullPath": "presets/4.4/modes/Jekle_Aux_modes_CRSF.txt",
+      "hash": "16aeeb1720a634ee6df08ab5d565714f0547d56f4a721ba6cb99c1fa46502855",
+      "title": "Jekle CRSF AUX modes & GPS rescue",
       "firmware_version": [
         "4.4"
       ],
@@ -3549,7 +3549,9 @@
       "keywords": [
         "Jekle",
         "AUX modes",
-        "GPS rescue"
+        "GPS rescue",
+        "Crossfire",
+        "CRSF"
       ],
       "author": "Jekle",
       "priority": 0
