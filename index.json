@@ -3539,7 +3539,7 @@
     },
     {
       "fullPath": "presets/4.4/modes/Jekle_Aux_modes_CRSF.txt",
-      "hash": "16aeeb1720a634ee6df08ab5d565714f0547d56f4a721ba6cb99c1fa46502855",
+      "hash": "6f37ae5a174e8bca0ffede8ecba5a64c39dbcaffa28286c80f848facf6ce375c",
       "title": "Jekle CRSF AUX modes & GPS rescue",
       "firmware_version": [
         "4.4"
@@ -3558,7 +3558,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/Jekle_HDzero_OSD.txt",
-      "hash": "c505ce801015d1f13ee0f2b6c748929fe43e73389168c20344e4fc0c974db168",
+      "hash": "2f3b1ab26db992ff646f3ca889732793e085de2c45c08b177e99fe1090ae2975",
       "title": "Jekle HDzero OSD profiles",
       "firmware_version": [
         "4.4"
@@ -3574,7 +3574,7 @@
         "freestyle",
         "GPS"
       ],
-      "author": "Jekle aka JekleFPV",
+      "author": "Jekle",
       "priority": 0
     },
     {
@@ -4446,7 +4446,7 @@
     },
     {
       "fullPath": "presets/4.4/vtx/Jekle_HDZero_setup.txt",
-      "hash": "38971786c9992a560bd3543afc607f5be13378f16c5db928147c0c39963b2e42",
+      "hash": "cd9419336e5c4d8610951d7b227ae9a314c0d9f9286e644a77c781585e546b7b",
       "title": "Jekle HDZero VTXs",
       "firmware_version": [
         "4.4"
