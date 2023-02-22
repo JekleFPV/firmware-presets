@@ -3,7 +3,7 @@
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: HDzero, OSD, Jekle, LR, Long range, freestyle, GPS
-#$ AUTHOR: Jekle aka JekleFPV
+#$ AUTHOR: Jekle
 
 #$ PARSER: MARKED
 
